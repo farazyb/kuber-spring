@@ -13,5 +13,6 @@ public class BasicHealthCheck extends HealthCheck {
     @Override
     protected Result check() throws Exception {
         return Result.healthy("Ok with version: " + version);
+
     }
 }
